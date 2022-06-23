@@ -1,3 +1,7 @@
+body {
+  background-color: lightblue;
+}
+
 .tabs {
     display: grid;
   }
@@ -9,22 +13,22 @@
   }
   
   [role="tabpanel"] {
-    background: var(--yellow);
+    background: antiquewhite;
     padding: 2rem;
   }
   
   button {
-    background: var(--grey);
+    background: gray;
     border: 0;
     color: black;
     border-radius: 5px 5px 0 0;
     --bs-color: rgba(0,0,0,0.1);
-    box-shadow: inset 0 -2px 5px var(--bs-color);
+    box-shadow: inset 0 -2px 5px white;
     cursor:pointer;
   }
   
   button[aria-selected="true"] {
-    background: var(--yellow);
+    background: antiquewhite;
     box-shadow: none;
     color: rgba(0,0,0,0.7);
   }
